@@ -1,0 +1,366 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+	background-color: #ebebeb;
+}
+
+.allcontent{
+	padding: 5% 0;
+	background-color: #ebebeb;
+	display: flex;
+	flex-direction: column;
+}
+
+/*menu*/
+nav{
+	box-shadow: 10px 2px 30px #2e2e2e;
+	background-color: white;
+	margin:0 0 20px 0;
+	position: fixed;
+	width: 100%;
+	z-index: 10;
+}
+
+li a{
+	font-family: "Arial";
+	font-weight: bold;
+	color: black;
+	font-size: 0.8vw;	
+}
+
+ li{
+	margin: 1%;
+}
+
+nav ul{
+	list-style-type: none;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	margin: 0;
+	padding: 0 1%;	
+}
+
+nav a:link, a:active, a:hover {
+	color: black;
+}
+
+#menu{
+	display: flex;
+	flex: 1;
+	justify-content: center;
+}
+
+
+#logo{
+	height: 2vw;
+	flex: 1;
+	justify-self: center;
+	
+}
+/*slider*/
+.container{
+	width: 100%;
+	padding: 0px;
+}
+/*uvodna stranka*/
+.content{
+	display: flex;
+	justify-content: center;
+	align-items: baseline;
+	width: 100%;
+
+}
+
+h1.content4{
+	text-align: center;
+	font-size: 3vw;
+	margin: 0;
+	padding: 2%;
+	color: black;
+	font-family: "Georgia";
+}
+
+.content div.content4{
+	margin: 0 5% 5% 5%;
+	font-size: 1vw;
+	font-family: 'Nunito', sans-serif;
+	color: black;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+i{
+	font-size: 500%;
+	margin: 20%;
+}
+
+.content2{
+	background-color: lightgray;
+	display: flex;
+	width: 100%;
+}
+
+.content2 img{
+	width: 50%;
+}
+
+.content4 a{
+	background-color: white;
+	color: black;
+	padding: 4% 4%;
+	font-size: 1vw;
+	font-family: "Georgia";
+	text-decoration: none;
+	border: 1px solid black;
+	width: 80%;
+	text-align: center;
+	margin: 5%;
+}
+
+.home{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: black;
+}
+
+.home h2{
+	margin: 10%;
+	font-size: 3vw;
+	font-family: "Georgia";
+}
+
+.home a{
+	background-color: white;
+	color: black;
+	padding: 2% 4%;
+	font-size: 1vw;
+	font-family: "Georgia";
+	text-decoration: none;
+	border: 1px solid black;
+	width: 30%;
+	text-align: center;
+}
+
+.content3{
+	background-color: gray;
+	padding: 5%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-family: 'Nunito', sans-serif;
+}
+
+.content3 h3{
+	font-size: 1.5vw;
+	text-align: center;
+}
+
+/*obrazkova galeria*/
+.contentgallery{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+
+.gallery img{
+	width: 100%;
+}
+
+.gallery h3{
+		padding: 4% 4% 0 4%;
+		font-family: "Georgia";
+		border-top: 1px solid lightgray;
+		font-size: 2vw;
+		margin-top: 0;
+}
+
+.gallery p{
+	font-family: 'Nunito', sans-serif;
+	padding: 0 4% 0 4%;
+	font-size: 1vw;
+}
+
+.gallery a{
+	text-align: center;
+	text-decoration: none;
+	width: 50%;
+	border: 1px solid black;
+	color: black;
+	padding: 3% 2%;
+	margin: 3%;
+	align-self: center;
+	font-family: "Georgia";
+	font-size: 1vw;
+}
+
+.gallery{
+	width: 25%;
+	margin: 0.5%;
+	border: 1px solid lightgray;
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+}
+
+/*kontaktny formular*/
+.contact{
+	background-color: white;
+	width: 50%;
+	margin:0 auto 5% auto;
+	border: 1px solid lightgray;
+}
+.contact h1{
+	font-family: "Georgia";
+	padding: 2%;
+	font-size: 2vw;
+}
+
+.contact p{
+	font-family: "Georgia";
+	padding: 3%;
+	font-size: 0.8vw;
+}
+
+.about{
+	width: 80%; 
+	height: 23.5vw;
+}
+
+.contact img{
+	width: 80%;
+}
+
+.contact2{
+	padding: 3%;
+	display: flex;
+	width: 80%;
+	margin: 4% auto;
+	justify-content: center;
+}
+
+.contact2 i{
+	margin: 5%;
+	font-size: 1vw;
+}
+
+.contact2 a{
+	text-decoration: none;
+	color: black;
+	font-family: 'Nunito', sans-serif;
+	font-size: 0.8vw;
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.contact2 a:hover{
+	text-decoration: underline;
+}
+
+form{
+	flex: 1;
+	padding: 2%;
+}
+
+.form1{
+	display: flex;
+	width: 100%;	
+}
+
+.form2{
+	margin: 3%;
+	flex: 1;
+	font-family: "Georgia";
+	font-size: 0.8vw;
+}
+
+input[type=text]:focus, input[type="tel"]:focus, input[type="email"]:focus, textarea:focus{
+	outline: none;
+} 
+
+.info{
+	border: none;
+	border-bottom: 1px solid black;
+	margin: 1%;
+	padding: 1%;
+	width: 100%;
+	font-family: 'Nunito', sans-serif;
+}
+
+.form3{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+textarea{
+	resize: none;
+	height: 200px;
+}
+
+input[type="submit"]{
+	border: 1px solid black;
+	background-color: white;
+	font-family: "Georgia";
+	width: 50%;
+	padding: 2%;
+	font-size: 0.8vw;
+}
+
+/*pata stranky*/
+footer{
+	width: 100%;
+	text-align: center;
+	padding: 1%;
+	background-color: white;
+}
+
+footer h6{
+	font-size: 1vw;
+	color: gray;
+}
+
+@media (max-width:  500px){
+	/*menu*/
+	li a 			{font-size: 1.3vw;}
+	/*home*/
+	.content2		{flex-direction: column;}
+	.content2 img	{width: 100%; order: -10;}
+	.content2 a 	{margin-bottom: 5%;}
+	/*gallery*/
+	.gallery		{width: 45%;}
+	/*contact*/
+	.contact		{width: 100%; margin: 0; padding: 0 5%;}
+	.contact p		{font-size: 2vw;}
+	.contact h1		{font-size: 3vw;}
+	textarea		{height: 100px; }
+	.form1			{flex-direction: column;}
+	.form2			{font-size: 2vw;}
+	input[type="submit"]	{font-size: 2vw;}
+	.contact2 a 	{font-size: 2vw;}
+	/*about*/
+	.about			{flex-direction: column; height: 50%;}
+	.about img 		{padding: 3% 0; height: 50%; width: 50%; margin: auto;}
+	.contact img 	{width: 50%;}
+
+
+}
+
+@media (min-width:  1000px){
+	/*gallery*/
+	.gallery		{width: 20%;}
+	/*contact*/
+
+}
+
+
